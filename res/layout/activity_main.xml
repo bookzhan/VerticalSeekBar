@@ -1,0 +1,17 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.chenzhanyang.layouttest"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000" >
+
+    <com.chenzhanyang.layouttest.VerticalSeekBar
+        android:id="@+id/vsk"
+        android:layout_width="25dp"
+        android:layout_height="400dp"
+        android:layout_centerInParent="true"
+        app:bgcolor="#ff0000"
+        app:maxprogress="100"
+        app:progresscolor="#00ff00"
+        app:thumbcolor="#0000ff" />
+
+</LinearLayout>
